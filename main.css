@@ -108,7 +108,7 @@ body {
 /*! ANIMATED BACKGOUND FINISH  */
 
 .flex {
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .card {
@@ -120,4 +120,20 @@ body {
 .copyright {
     text-align: end;
     user-select: none;
+}
+
+@media screen and (max-width:500px) {
+    .card-full {
+        width: 900px;
+    }
+    ul {
+        padding-left: 0;
+        margin: 0;
+    }
+    .copyright {
+        font-style: unset;
+        opacity: 0.5;
+        text-align: center;
+        margin-top: 30px;
+    }
 }
