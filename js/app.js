@@ -4,10 +4,10 @@ const elCurrencyFormInput = document.querySelector('.currency-input');
 const elCurrencyFormSelect = document.querySelector('.currency-select');
 const elCurrencyFormResult = document.querySelector('.currency-result');
 //! CURRENCY
-const USD_to_UZS = 11422;
-const RUBL_to_UZS = 161;
-const EURO_to_UZS = 12322;
-const FUNT_to_UZS = 13758;
+const USD_to_UZS = 11342;
+const RUBL_to_UZS = 160;
+const EURO_to_UZS = 12212;
+const FUNT_to_UZS = 13651;
 const DINOR_to_UZS = 37560;
 
 elCurrencyForm.addEventListener("submit", function(evt) {
